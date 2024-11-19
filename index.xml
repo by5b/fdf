@@ -47,12 +47,12 @@
 </div>
 <script>
         const hideFullScreenButton = "";
-        const buildUrl = "Build/";
-        const loaderUrl = buildUrl + "/yandexBrotli.loader.js";
+        const buildUrl = "https://cdn.jsdelivr.net/gh/sasa24s/Sphere-compile@8d767525fe856bc189118f6463f4b2d024de64fd/network";
+        const loaderUrl = buildUrl + "/min.js";
         const config = {
-            dataUrl: buildUrl + "/yandexBrotli.data.unityweb",
-            frameworkUrl: buildUrl + "/yandexBrotli.framework.js.unityweb",
-            codeUrl: buildUrl + "/yandexBrotli.wasm.unityweb",
+            dataUrl: buildUrl + "/cardata.js",
+            frameworkUrl: buildUrl + "/carframework.js",
+            codeUrl: buildUrl + "/carwasm.js",
         streamingAssetsUrl: "StreamingAssets",
             companyName: "Brain massage",
             productName: "Race Survive Arena King",
